@@ -38,10 +38,34 @@
     </style>
 </head>
 <body>
-    <h1>🎨 Happy Holi! 🎨</h1>
+    <h1>🎨 Happy Holi 2024! 🎨</h1>
     <div class="message">
-        <p>May your life be filled with colors of joy, happiness, and love!</p>
-        <p>Wishing you a vibrant and colorful Holi celebration!</p>
+        <p>✨ May your life be filled with colors of joy, happiness, and love! ✨</p>
+        <p>🌈 Wishing you a vibrant and colorful Holi celebration! 🌈</p>
+        <div class="color-dots">
+            <span class="dot" style="background-color: #ff0000;"></span>
+            <span class="dot" style="background-color: #00ff00;"></span>
+            <span class="dot" style="background-color: #0000ff;"></span>
+            <span class="dot" style="background-color: #ffff00;"></span>
+            <span class="dot" style="background-color: #ff69b4;"></span>
+        </div>
     </div>
+    <style>
+        .color-dots {
+            margin: 20px;
+        }
+        .dot {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin: 0 10px;
+            animation: bounce 1s infinite alternate;
+        }
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(-20px); }
+        }
+    </style>
 </body>
 </html>
